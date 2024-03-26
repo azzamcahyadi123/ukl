@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(65, 125, 85);
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+}
+input, label {
+    display: block;
+    margin: 10px 0;
+    color: #000000;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("alas.jpg");
+}
+.menu-item {
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px;
+    border: 7px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    background-color: aquamarine;
+}
+.menu-item img {
+    width: 100px;
+    height: 15p0x;
+}
+
+
+.back{
+background-color: black;
+
+}       
+.back:hover{
+background-color: aqua;
+}
+
+.btn {
+width: 100px;
+height: 200px;
+}
