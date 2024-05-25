@@ -7,8 +7,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    color: #4f3a3a;
-    background:rgb(120, 121, 127) ;
+    background-image: url(alas.jpg) ;
 }
 
 .table tr td:first-child{
@@ -24,6 +23,7 @@ img{
 
 .table tr td{
     padding: .25rem;
+    color: #000000;
 }
 
 .photo{
@@ -46,4 +46,7 @@ hr{
 
 .wrapper a:hover{
     opacity: 0.5;
+}
+img .wrapper{
+    border:5px solid red;
 }

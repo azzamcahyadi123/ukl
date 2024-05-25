@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="profil.css">
+    <link rel="stylesheet" href="kelapa.css">
     <title>Bio data</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
     <div class="wrapper">
         
         <h1>Biodata diri</h1>
-        <table class="table">
+        <table class="table" border='4'>
 
             <tr>
                 <td>Nama</td>

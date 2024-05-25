@@ -2,7 +2,7 @@
 <?php
 
 include "function.php";
-$id = 1;
+$id = 5;
 
 $query = "SELECT * FROM tanaman where id_tanaman = $id";
 $tes = mysqli_query($conn, $query);
@@ -20,7 +20,7 @@ while ($row = mysqli_fetch_assoc($tes)) {
     <title>Bio data</title>
 </head>
 <body>
-    <img src="https://awsimages.detik.net.id/community/media/visual/2019/11/29/5f981b81-e924-47fb-b58d-e131f5c3c48a.png?w=600&q=90" alt="">
+    <img src="https://static6.depositphotos.com/1002200/646/i/450/depositphotos_6462497-stock-photo-beautiful-glade.jpg" alt="">
     <div class="wrapper">
         
         <h1>DATA TUMBUHAN</h1>
@@ -47,7 +47,7 @@ while ($row = mysqli_fetch_assoc($tes)) {
           
         </table> 
     <hr> 
-    <a href="register c.php">lihat riview</a>
+    <a href="register.php">lihat riview</a>
     <a href="tentang2.php">kembali</a>
     </div>
 

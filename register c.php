@@ -29,9 +29,9 @@ if (isset($_POST["registrasi"])) {
         <div class="col-md-6 offset-md-3">
             <h1>Register only</h1>
             <form action="" method="post">
-                <div class="form-group">
-                    <label for="nama">Nama</label>
-                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama">
+                 <div class="form-group">
+                    <label for="username">username</label>
+                    <input type="username" class="form-control" id="username" name="username" placeholder="Masukkan password">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
@@ -42,13 +42,12 @@ if (isset($_POST["registrasi"])) {
                     <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan password">
                 </div>
                
-                <div class="form-group">
-                    <label for="username">username</label>
-                    <input type="username" class="form-control" id="username" name="username" placeholder="Masukkan password">
-                </div>
-                <button name="registrasi" type="submit" class="btn btn-primary">Register</button>
+               <button name="registrasi" type="submit" class="btn btn-primary">Register</button>
                 <div>
                     <span>sudah punya akun? <a href="login.php">login</a></span>
+                </div>
+                 <div>
+                    <span><a href="tentang2.php">kembali</a></span>
                 </div>
 
             </form>

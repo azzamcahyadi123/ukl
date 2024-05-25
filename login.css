@@ -1,6 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(65, 125, 85);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url("alas.jpg");
+    background-size: cover;
+    background-position: center;
 }
 form {
     width: 300px;
